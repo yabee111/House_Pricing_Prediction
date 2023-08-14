@@ -4,7 +4,7 @@ TU/e Data-Driven Course Assignment
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 ## Assignment Overview
-The real estate firm aims to forecast the prices of three-bedroom houses for each month spanning January 2020 to July 2022. After exploring the dataset, we used 
+The real estate firm aims to forecast the prices of three-bedroom houses for each month spanning January 2020 to July 2022. After exploring the dataset and assignment requirements, we used 
 - ModelA: Time-independent supervised regression:
   - Random Forest Regression model
   - Rolling window to create subsets without being influenced by the time dimension and capture any possible trends
@@ -17,10 +17,8 @@ The real estate firm aims to forecast the prices of three-bedroom houses for eac
  
 ### My Role
 I am responsible for Model A. (A2 to A5)
-
 - Code: House Pricing Prediction.ipynb
 - Description and Results: House Pricing Prediction.html, first clone and duble click
-
 #### Some analytical pathways and Deliberations Example
 ##### Response Features
 - year
