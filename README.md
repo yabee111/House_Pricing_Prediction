@@ -10,7 +10,7 @@ The real estate firm aims to forecast the prices of three-bedroom houses for eac
   - Rolling window to create subsets without being influenced by the time dimension and capture any possible trends
   - Response features to be devoid of time dependency
   - Cross Validation
-  - Mean Absolute Error to check prediction
+  - Mean Absolute Error to check accuracy
 - ModelB: Time-dependent time series forecasting:
   - Recurrent neural network with LSTM
   - Tune the hyperparameters
@@ -19,7 +19,7 @@ The real estate firm aims to forecast the prices of three-bedroom houses for eac
 I am responsible for Model A. (A2 to A5)
 
 - Code: House Pricing Prediction.ipynb
-- Description and Results: House Pricing Prediction.html
+- Description and Results: House Pricing Prediction.html, first clone and duble click
 
 #### Some analytical pathways and Deliberations Example
 ##### Response Features
