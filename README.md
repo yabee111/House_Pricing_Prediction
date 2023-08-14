@@ -18,6 +18,9 @@ The real estate firm aims to forecast the prices of three-bedroom houses for eac
 ### My Role
 I am responsible for Model A. (A2 to A5)
 
+- Code: House Pricing Prediction.ipynb
+- Description and Results: House Pricing Prediction.html
+
 #### Some analytical pathways and Deliberations Example
 ##### Response Features
 - year
@@ -27,7 +30,7 @@ I am responsible for Model A. (A2 to A5)
 - X-Month Rolling Window: average, maximum, minimum, and price difference
 
 ##### Window Size (Feature Selection)
-<h6> After examining the dataset, no evident pricing trends were discerned across various house types and room numbers. Consequently, it becomes imperative to assess the optimal size of rolling windows and determine the ideal duration for calculating average prices, which will contribute to more accurate predictions of future pricing. 
+After examining the dataset, no evident pricing trends were discerned across various house types and room numbers. Consequently, it becomes imperative to assess the optimal size of rolling windows and determine the ideal duration for calculating average prices, which will contribute to more accurate predictions of future pricing. 
 
 Several potential avenues for exploration have been considered:
 - 2 months
@@ -38,18 +41,18 @@ Several potential avenues for exploration have been considered:
 The rolling windows selected are:
 If the rolling window width is 2:
 *   Rolling Mean: The mean price of two consecutive months with same number of bedrooms
-    Ex: (02/2011 bedroom:2 + 03/2011 bedroom:2)/2
+    <p>Ex: (02/2011 bedroom:2 + 03/2011 bedroom:2)/2</p>
 
 *   Rolling minimum: The minimum price of two consecutive months with same number of bedrooms
-    Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2
+    <p>Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2</p>
 
 *   Rolling maximum: The maximum price of two consecutive months with same number of bedrooms
-    Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2
+    <p>Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2</p>
 
 *   Rolling difference: The difference price of two consecutive months with same number of bedrooms
-    Ex: 03/2011 bedroom:2 - 02/2011 bedroom:2 
-        or 01/2012 - 12/2011(cross the year)
-</h6>
+    <p>Ex: 03/2011 bedroom:2 - 02/2011 bedroom:2 </p>
+    <p>    or 01/2012 - 12/2011(cross the year)</p>      
+
 ## Results
 - Leveraging a 2-Month Rolling Window: Maximum, Minimum, and Price Difference Combination could provide the best prediction
 - Mean Absolute Error = 127540.0  (Overall Average Price is around 1 million)
