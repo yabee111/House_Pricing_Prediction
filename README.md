@@ -15,18 +15,18 @@ The real estate firm aims to forecast the prices of three-bedroom houses for eac
   - Recurrent neural network with LSTM
   - Tune the hyperparameters
  
-#### My Role
-I am responsible for Model A. 
+### My Role
+I am responsible for Model A. (A2 to A5)
 
-##### Some analytical pathways and Deliberations Example
-###### Response Features
+#### Some analytical pathways and Deliberations Example
+##### Response Features
 - year
 - month
 - house type (House or Units)
 - bedrooms (from 2 to 6)
 - X-Month Rolling Window: average, maximum, minimum, and price difference
 
-###### Window Size (Feature Selection)
+##### Window Size (Feature Selection)
 After examining the dataset, no evident pricing trends were discerned across various house types and room numbers. Consequently, it becomes imperative to assess the optimal size of rolling windows and determine the ideal duration for calculating average prices, which will contribute to more accurate predictions of future pricing. 
 
 Several potential avenues for exploration have been considered:
@@ -55,9 +55,11 @@ If the rolling window width is 2:
 - Leveraging a 2-Month Rolling Window: Maximum, Minimum, and Price Difference Combination could provide the best prediction
 - Mean Absolute Error = 127540.0  (Overall Average Price is around 1 million)
 
-##### Model Evaluation
+#### Model Evaluation
 - Measures the average absolute difference between the predicted and actual values
 <img width="1046" alt="image" src="https://github.com/yabee111/House_Pricing_Prediction/assets/56541415/95f7de29-e4d9-4724-8123-0b23863e30de">
 
 Considering the price diversity of the houses with 3 bedrooms we can conclude that the model has achieved a fine accuracy in predicting the target variable. The performance of the model was affected by the choice of hyperparameters and the quality of the training data. The feature engineering process was carefully designed to capture the relevant information from the features. The random forest model outperformed other machine learning models and statistical models that were tried in the project, due to its ability to capture complex interactions among the features. Future work could focus on improving the accuracy of the model by further tuning the hyperparameters and exploring other feature engineering techniques.
 
+
+Collaborator: Coşkun, Ömer; Gallarday Bueno, JuanGuo; ChangGuo, Chang
