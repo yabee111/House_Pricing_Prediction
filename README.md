@@ -39,26 +39,23 @@ The rolling windows selected are:
 
 If the rolling window width is 2:
 *   Rolling Mean: The mean price of two consecutive months with same number of bedrooms
-Ex: (02/2011 bedroom:2 + 03/2011 bedroom:2)/2
-NAN replaced by its original price.
+    Ex: (02/2011 bedroom:2 + 03/2011 bedroom:2)/2
 
 *   Rolling minimum: The minimum price of two consecutive months with same number of bedrooms
-Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2
-NAN replaced by its original price.number of troops
+    Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2
 
 *   Rolling maximum: The maximum price of two consecutive months with same number of bedrooms
-Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2
-NAN replaced by its original price.
+    Ex: 02/2011 bedroom:2 vs 03/2011 bedroom:2
 
 *   Rolling difference: The difference price of two consecutive months with same number of bedrooms
-Ex: 03/2011 bedroom:2 - 02/2011 bedroom:2 
-    or 01/2012 - 12/2011(cross the year)
+    Ex: 03/2011 bedroom:2 - 02/2011 bedroom:2 
+        or 01/2012 - 12/2011(cross the year)
 
-### Results
+## Results
 - Leveraging a 2-Month Rolling Window: Maximum, Minimum, and Price Difference Combination could provide the best prediction
 - Mean Absolute Error = 127540.0  (Overall Average Price is around 1 million)
 
-###### Model Evaluation
+##### Model Evaluation
 - Measures the average absolute difference between the predicted and actual values
 <img width="1046" alt="image" src="https://github.com/yabee111/House_Pricing_Prediction/assets/56541415/95f7de29-e4d9-4724-8123-0b23863e30de">
 
